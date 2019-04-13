@@ -7,5 +7,9 @@ package com.house.controller;
  */
 public class HelloController {
   
-  public String name = "jack";
+    public String name = "jack";
+
+    private int age=18;
+
+    
 }
