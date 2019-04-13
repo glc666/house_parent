@@ -11,17 +11,19 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
-    
-	<dependency>
-		<groupId>org.apache.commons</groupId>
-		<artifactId>commons-lang3</artifactId>
-		<version>3.4</version>
-	</dependency>
+
+
+	  <dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-freemarker</artifactId>
+	  </dependency>
+
 	
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
@@ -50,6 +52,14 @@
 	   <artifactId>disruptor</artifactId>
 	   <version>3.3.6</version>
 	</dependency>
+
+
+
+	  <dependency>
+		  <groupId>org.apache.commons</groupId>
+		  <artifactId>commons-lang3</artifactId>
+		  <version>3.4</version>
+	  </dependency>
 
 
 	<dependency>
