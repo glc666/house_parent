@@ -6,4 +6,6 @@ package com.house.controller;
  * @Version 1.0
  */
 public class HelloController {
+  
+  public String name = "jack";
 }
